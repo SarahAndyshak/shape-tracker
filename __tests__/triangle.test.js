@@ -33,4 +33,9 @@ describe('Triangle', () => {
     const triangle = new Triangle(3,4,5);
     expect(triangle.isBigTriangle()).toEqual('big');
   });
+
+  test('should say if a triangle is big', () => {
+    const triangle = new Triangle(3,4,5);
+    expect(triangle.isBigTriangle()).toEqual('big');
+  });
 });
